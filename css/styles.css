@@ -1,0 +1,217 @@
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffedd8;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+:root{
+    font-size: 10px;
+}
+a:link,
+a:visited {
+    color: hsl(210, 31%, 20%);
+    
+}
+.container{
+    padding: 2em;
+}
+h1, h2, h3, h4, h5, p{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+.hero-section,
+.shop-now,
+.fresh,
+.collections,
+.benefits,
+.footer{
+    padding: 1rem;
+    margin-bottom: 1em;
+}
+.brand-header{
+    padding: 1rem;
+    margin-left: 1em;
+    font-size: 2em;
+    font-weight: 700;
+
+}
+.brand-header a{
+    /* font-size: 1.0em; */
+    text-decoration: none;
+}
+
+.top-nav{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: none;
+}
+.top-nav li{
+    padding: 5px;
+}
+
+.hero-header{
+    font-weight: 700;
+    font-size: 2em;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+}
+/* .hero-p{
+    font-size: 1.3em;
+    font-weight: 400;
+} */
+.hero-img{
+   margin: 0em 2em 2em 0em;
+}
+
+.hero-img2{
+    margin: 0em 2em 2em 0em;
+    border-radius: 5em 5em 0 0;
+}
+.hero-button,
+.collection-btn{
+    border: 1px solid #faa307;
+    padding: 1em 1.7em;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #faa307;
+    background-color: #ffedd8;
+}
+.shop-now{
+    display: flex;
+    flex-direction: column;
+}
+.show-now-header{
+    font-size:2em;
+    font-weight: 700;
+    width: 85%;
+}
+.show-brand{
+    margin-bottom: 1.4em;
+}
+.fresh-product{
+    display: flex;
+    flex-direction: column;
+}
+.product-section{
+    height: auto;
+}
+
+.fresh-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+.circles-section{
+    list-style: none;
+    display: flex;
+    align-content: flex-start;
+}
+.circles-section li{
+    padding: 0.5em;
+    padding-left: 0;
+}
+.fresh-p{
+    color: #8d99ae;
+    margin-left: 1.3em;
+}
+
+.fresh-review{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.3em
+}
+.fresh-price{
+    flex-grow: 2;
+}
+.fresh-rating{
+    margin-left: 2em;
+    color: #faa307;
+    flex-grow: 1;
+}
+
+.collections{
+    display: flex;
+    flex-direction: column;
+}
+
+.collections-section{
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.collection-header1,
+.collection-header2,
+.collection-btn{
+    text-align: center;
+}
+
+/* .collection-header1{
+    /* font-weight: 700; */
+
+.collection-header2{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.collections-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: column;
+}
+.benefits-areas{
+    padding: 1.8em;
+}
+.benefits-header{
+    font-size: 1.8em;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-header{
+    font-size: 2em;
+    font-weight: 700;
+}
+.footer-ul{
+    list-style-type: none;
+}
+
+.footer-ul li{
+    font-size: 1.3em;
+    padding: 0.5em;
+}
+input{
+    background-color: #ffedd8;
+    border-width: 0 0 1px;
+    border-color: black;
+}
+/* background-color: #ffe8d6 
+font-family: 'Ubuntu', sans-serif;*/
